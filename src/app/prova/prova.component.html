@@ -1,0 +1,40 @@
+
+<div class="container-md ">
+  <div class="container">
+    <h2>Conversor de Moedas</h2>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">CÂMBIO</span>
+      <input type="number" name="cambio" [(ngModel)]="cambio" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Dólar $</span>
+      <input type="number" name="dolar" [(ngModel)]="dolar" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Euro €</span>
+      <input type="number" name="euro" [(ngModel)]="euro" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Libra £</span>
+      <input type="number" name="libra" [(ngModel)]="libra" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="d-grid gap-2">
+      <button class=" btn btn-outline-secondary" type="button" (click)="calculo()">
+          Converter
+      </button>
+      <h3>Valor convertido</h3>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Dólar $</span>
+      <input type="number" name="dolarconvertido" [(ngModel)]="dolarconvertido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" disabled>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Euro €</span>
+      <input type="number" name="euroconvertido" [(ngModel)]="euroconvertido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" disabled>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Libra £</span>
+      <input type="number" name="libraconvertido" [(ngModel)]="libraconvertido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" disabled>
+    </div>
+</div>
+</div>
